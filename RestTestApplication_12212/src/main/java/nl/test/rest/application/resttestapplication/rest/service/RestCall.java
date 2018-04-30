@@ -11,7 +11,6 @@ import javax.ws.rs.core.Response;
 import nl.test.rest.application.resttestapplication.rest.generic.Namespace;
 import nl.test.rest.application.resttestapplication.rest.object.ComplexObject;
 import nl.test.rest.application.resttestapplication.rest.object.RootObject;
-import org.joda.time.DateTime;
 import org.joda.time.LocalDateTime;
 
 @Stateless

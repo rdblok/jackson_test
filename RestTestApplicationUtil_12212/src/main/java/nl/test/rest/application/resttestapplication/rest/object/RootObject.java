@@ -1,14 +1,13 @@
 
 package nl.test.rest.application.resttestapplication.rest.object;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import org.joda.time.LocalDateTime;
 
-/**
- *
- * @author isc20766
- */
 public class RootObject {
+    @JsonProperty("otherProperty")
     private String ident;
+    @JsonProperty("rootName")
     private String name;
 //    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime createDate;
